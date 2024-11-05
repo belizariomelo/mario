@@ -1,0 +1,156 @@
+@import url("https://fonts.cdnfonts.com/css/super-mario-world-text-box");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: url(https://images7.alphacoders.com/902/thumb-1920-902443.png)
+    no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font: 11px/1.3em "Super Mario World Text Box", sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+p {
+  padding: 0 15px 5px;
+  text-align: justify;
+}
+.summary p {
+  padding: 3px 12px 0;
+}
+
+header {
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e64b8f7-82f5-47e5-9319-e2e69ca6f56d/d9f6x59-83bc7697-99b5-4ab1-b56c-48286f982b2b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZlNjRiOGY3LTgyZjUtNDdlNS05MzE5LWUyZTY5Y2E2ZjU2ZFwvZDlmNng1OS04M2JjNzY5Ny05OWI1LTRhYjEtYjU2Yy00ODI4NmY5ODJiMmIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ecp8az9AAdUgHhqzZodMeTYiyjhki3Mbn-rK2JjN4MM)
+    no-repeat;
+  background-size: cover;
+  height: 230px;
+  border-radius: 10px 10px 0 0;
+}
+.summary p {
+  padding: 20px 30px 0px 22px;
+  text-align: center;
+  font-family: "Super Mario World Text Box", sans-serif;
+  color: rgb(50, 50, 50);
+}
+
+.summary p:nth-of-type(2) {
+  padding-top: -5px;
+  padding-bottom: 12px;
+  font-family: "Super Mario World Text Box", sans-serif;
+  border-bottom: 2px solid rgb(196, 105, 85);
+}
+h1 {
+  padding-top: 20%;
+  padding-bottom: 2%;
+}
+h1,
+h2 {
+  text-align: center;
+  font-family: "Super Mario World Text Box", sans-serif;
+  font-weight: 600;
+  font-size: 1.7em;
+  color: rgb(41, 40, 40);
+}
+h3 {
+  font-family: "Super Mario World Text Box", sans-serif;
+  text-align: center;
+  padding: 10px;
+  color: rgb(161, 79, 46);
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+.page-wrapper {
+  margin: 30px auto;
+  border: 1px solid #565656;
+  background-color: rgba(234, 239, 244, 0.959);
+  background-size: cover;
+  text-align: left;
+  width: 450px;
+  -webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 11px;
+}
+p {
+  font-family: "Pixelify Sans", sans-serif;
+}
+footer {
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid rgb(196, 105, 85);
+  background-image: url(https://origamiami.com/wp-content/uploads/2021/07/bloco-super-mario.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  text-align: center;
+  border-bottom: 2px solid rgb(196, 105, 85);
+}
+
+footer a {
+  width: 120%;
+  border-radius: 5px;
+  background-repeat: repeat-x;
+  font-size: 1.5em;
+  font-family: "Pixelify Sans", sans-serif;
+  color: rgb(247, 245, 245);
+  margin: 0 15px;
+  background-color: transparent;
+  transition: all 0.4s ease;
+  padding: 5px;
+}
+
+footer a:hover {
+  color: rgb(61, 60, 60);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4fCueOxNSzkI5fY9m-plBCoj-oOAsj3R-SpkOG-ZLVMrXh_t5pYeIpEqWfxl3-vtphpo&usqp=CAU);
+  background-size: cover;
+  transform: rotate(5deg) scale(1.05);
+}
+
+.sidebar {
+  background-image: url(https://i.gifer.com/U7Kw.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+
+  border-radius: 0px 0px 11px 11px;
+}
+
+.sidebar h3 {
+  font-family: "Super Mario World Text Box", sans-serif;
+  color: rgb(206, 142, 119);
+  margin-bottom: 10px;
+}
+
+.sidebar nav {
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  padding-left: 20px;
+}
+
+.sidebar a {
+  font-family: "Pixelify Sans", sans-serif;
+  color: rgb(41, 40, 40);
+  transition: color 0.3s ease;
+  font-size: 1.2em;
+}
+
+.sidebar a:hover {
+  color: rgb(196, 105, 85);
+}
+
+.wrapper ul {
+  padding-left: 80px;
+}
